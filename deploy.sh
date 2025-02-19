@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Env Vars
-POSTGRES_USER="myuser"
+POSTGRES_USER="asim"
 POSTGRES_PASSWORD=$(openssl rand -base64 12) # Generate a random 12-character password
 POSTGRES_DB="mydatabase"
-SECRET_KEY="my-secret"          # for the demo app
+SECRET_KEY="my-secret-25"       # for the demo app
 NEXT_PUBLIC_SAFE_KEY="safe-key" # for the demo app
-DOMAIN_NAME="nextselfhost.dev"  # replace with your own
-EMAIL="your-email@example.com"  # replace with your own
+DOMAIN_NAME="kaabbarsha.com"    # replace with your own
+EMAIL="kaabteacher@gmail.com"   # replace with your own
 
 # Script Vars
-REPO_URL="https://github.com/asim/selfhost.git"
+REPO_URL="https://github.com/asimqasmi/selfhostnext.git"
 APP_DIR=~/myapp
 SWAP_SIZE="1G" # Swap size of 1GB
 
